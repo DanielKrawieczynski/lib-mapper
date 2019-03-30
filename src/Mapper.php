@@ -68,7 +68,7 @@ class Mapper
      */
     public function jsonMap(string $class, ...$model)
     {
-        if (class_exists($class)) {
+        if (!class_exists($class)) {
             throw new ModelMapException(sprintf('Class %s not exists', $class));
         }
         try {
@@ -92,7 +92,7 @@ class Mapper
      */
     public function jsonMapArray(string $class, array $array): array
     {
-        if (class_exists($class)) {
+        if (!class_exists($class)) {
             throw new ModelMapException(sprintf('Class %s not exists', $class));
         }
         try {
