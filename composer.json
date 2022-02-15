@@ -1,18 +1,18 @@
 {
-    "name": "mrcnpdlk/lib-mapper",
+    "name": "danielkrawieczynski/lib-mapper",
     "license": "MIT",
     "description": "Class mapper Library",
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
     "type": "library",
     "authors": [ {
-        "name": "Marcin Pudełek",
-        "email": "marcin@pudelek.org.pl",
+        "name": "Daniel Krawieczyński",
+        "email": "daniel@krawieczynski.pl",
         "role": "Developer"
     } ],
     "require": {
-        "php": ">=7.2",
+        "php": "^7.3|^8.0",
         "mrcnpdlk/lib-exception": "^0",
-        "netresearch/jsonmapper": "^1"
+        "netresearch/jsonmapper": "^4"
     },
     "autoload": {
         "psr-4": {
