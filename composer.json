@@ -2,7 +2,7 @@
     "name": "danielkrawieczynski/lib-mapper",
     "license": "MIT",
     "description": "Class mapper Library",
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "type": "library",
     "authors": [ {
         "name": "Daniel Krawieczyński",
